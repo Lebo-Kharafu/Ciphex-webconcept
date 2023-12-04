@@ -1,0 +1,325 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* BODY ALIGNMENT*/
+body{
+		margin:auto;
+}
+/* HOME PAGE BACKGROUND*/
+#home{
+		background-repeat:no-repeat;libraryqtlpitkix 
+		background-position:center;
+		background-size:100% 100%;	
+}
+/* HOME PAGE LOGO ANIMATION*/
+@keyframes logoh{
+		0%{background-image:url(../IMAGES/CIPHEX/CIPHEX_DARK.jpg); background-size:100px 100px;
+		width:100px; height:100px; margin-left:0%;}
+		
+		25%{background-image:url(../IMAGES/CIPHEX/CIPHEX_DARK.jpg); background-size:100px 100px;
+		width:100px; height:100px; margin-left:45%;}
+		
+		50%{background-image:url(../IMAGES/CIPHEX/CIPHEX_DARK.jpg); background-size:100px 100px;
+		width:100px; height:100px;  margin-left:93%;}
+		
+		75%{background-image:url(../IMAGES/CIPHEX/ciphex.jpg); background-size:100px 100px; width:100px;
+		height:100px;  margin-left:45%;}
+		
+		100%{background-image:url(../IMAGES/CIPHEX/ciphex.jpg); background-size:100px 100px;
+		width:100px; height:100px;  margin-left:0.5%;}
+
+}
+/* */
+#anif{
+		border:groove;
+		padding:10px 10px 10px 10px;
+		border-color:#000000;
+	}
+	/* */
+#anih{
+		animation-name:logoh;
+		animation-duration:10s;
+		animation-iteration-count:infinite;
+		border:solid;
+		background-size:100px 100px;
+		background-image:url(../IMAGES/CIPHEX/CIPHEX_DARK.jpg);
+		background-repeat:no-repeat;
+		border-color:#000099;
+		width:100px;
+		height:100px;
+}
+/* */
+#lebo{
+		background-color:#003366;
+}
+/* */
+@keyframes canil{
+		0%{
+			margin-left:-1500px;
+			opacity:0.0;			
+		}
+		50%{
+			margin-left:0px;
+			opacity:o.5;			
+		}
+		100%{
+			margin-left:auto;
+			opacity:1.0;
+		}
+}
+/* */
+#cani{
+		/*animated content */
+		animation-name:canil;
+		animation-timing-function:linear;
+		animation-duration:5s;
+		height:auto;
+		width:100%;
+		opacity:1.0;
+		text-align:center;
+}
+/*LEBO CENTRED PICTURE SLIDE SHOW*/
+@keyframes slider{
+	0%{
+		background-image:url(../IMAGES/LEBO/CAPRICORN ICON.jpg);
+		background-position:center;
+		background-size:300px 500px;
+		width:300px 500px;
+	}
+	10%{
+		background-image:url(../IMAGES/LEBO/CIPHEX_.png);
+		background-position:center;
+		background-size:300px 500px;
+		width:300px 500px;
+	}
+	20%{
+		background-image:url(../IMAGES/CIPHEX/CIPHEX_DARK.jpg);
+		background-position:center;
+		background-size:300px 500px;
+		width:300px 500px;
+	}
+	30%{
+		background-image:url(../IMAGES/LEBO/background.png);
+		background-position:center;
+		background-size:300px 500px;
+		width:300px 500px;
+	}
+	40%{
+		background-image:url(../IMAGES/LEBO/HTML_certificate.jpg);
+		background-position:center;
+		background-size:300px 500px;
+		width:300px 500px;
+	}
+	50%{
+		background-image:url(../IMAGES/LEBO/LEBO_BIRTH.png);
+		background-position:center;
+		background-size:300px 500px;
+		width:300px 500px;
+	}
+	60%{
+		background-image:url(../IMAGES/CIPHEX/CAPRICORN ICON.jpg);
+		background-position:center;
+		background-size:300px 500px;
+		width:300px 500px;
+	}
+	70%{
+		background-image:url(../IMAGES/CIPHEX/21X.jpg);
+		background-position:center;
+		background-size:300px 500px;
+		width:300px 500px;
+	}
+	80%{
+		background-image:url(../IMAGES/LEBO/CROKED LOVE.jpg);
+		background-position:center;
+		background-size:300px 500px;
+		width:300px 500px;
+	}
+	90%{
+		background-image:url(../IMAGES/CIPHEX/dog.jpg);
+		background-position:center;
+		background-size:300px 500px;
+		width:300px 500px;
+	}
+	100%{
+		background-image:url(../IMAGES/LEBO/lebo7.jpg);
+		background-position:center;
+		background-size:300px 500px;
+		width:300px 500px;
+	}
+}
+/* */
+#slide{
+		background-position:center;
+		background-size:contain;
+		background-repeat:no-repeat;
+		animation-name:slider;
+		animation-duration:15s;
+		animation-iteration-count:infinite;
+		animation-timing-function:ease;
+		height:300px;
+		width:500px;
+		margin-left:33%;
+}
+/* */
+@keyframes logol{
+		0%{background-image:url(../IMAGES/LEBO/background.png); background-size:100px 100px;
+		width:100px; height:100px; margin-left:0%;}
+		
+		25%{background-image:url(../IMAGES/LEBO/background.png); background-size:100px 100px;
+		width:100px; height:100px; margin-left:45%;}
+		
+		50%{background-image:url(../IMAGES/LEBO/background.png); background-size:100px 100px;
+		width:100px; height:100px;  margin-left:93%;}
+		
+		75%{background-image:url(../IMAGES/LEBO/background.png); background-size:100px 100px; width:100px;
+		height:100px;  margin-left:45%;}
+		
+		100%{background-image:url(../IMAGES/LEBO/background.png); background-size:100px 100px;
+		width:100px; height:100px;  margin-left:0%;}
+
+}
+/* */
+#anil{
+		animation-name:logol;
+		animation-duration:10s;
+		animation-iteration-count:infinite;
+		border:solid;
+		background-size:100px 100px;
+		background-image:url(../IMAGES/LEBO/LOVE.jpg);
+		background-repeat:no-repeat;
+		border-color:#000099;
+		width:100px;
+		height:100px;
+}
+/* */
+#lli{
+		column-count:4;
+		column-gap:normal;
+		text-align:center;
+		background:url(../IMAGES/CIPHEX/CIPHEX_DARK.jpg);
+		background-repeat:repeat-x;
+		background-size:contain;
+		font-size:18px;
+		list-style:none;
+}
+/* */
+#booksl{
+		column-count:3;
+		column-gap:normal;
+		text-align:center;
+		font-size:20px;
+		list-style:square;
+}
+/* */
+#upNav2{
+		margin:10vw;
+		margin-top:1vh;
+		margin-bottom:1vh;
+		background-color:#003369;
+		column-count:2;
+		column-gap:normal;
+		list-style:none;
+}
+/* */
+#ben{
+		background-image:url(../IMAGES/BENJI/ANON.jpg);
+		color:#CCCCCC;
+}
+/* */
+#act{
+	background-color:#003366;
+}
+/* */
+#upNav{
+		column-count:5;
+		column-gap:normal;
+		text-align:center;
+		width:auto;
+		background:url(../IMAGES/CIPHEX/CIPHEX_DARK.jpg);
+		background-repeat:repeat-x;
+		background-size:contain;
+		font-size:18px;
+		list-style:none; 
+}
+/* */
+/*#upNav2{
+		column-count:2;
+		column-gap:normal;
+		text-align:center;
+		width:100%;
+		background:url(../pics/20181204_073831.jpg);
+		background-repeat:repeat-x;
+		background-size:contain;
+		font-size:18px;
+		list-style:none; 
+}*/
+
+/* homepage text spreading plain text*/
+#spin{
+		height:130px;
+		text-align:center;
+		font-family:"Arial Black", Terminal, fantasy;	
+		width:auto;
+		padding-bottom:10px;
+}
+/* homepage text spreading transit*/
+#trH{		
+		transition-property:all;
+		margin:auto;
+		transition-duration:3s;
+		border-style:double;
+		border-color:#003399;
+}
+/* */
+#trH:hover{
+		color:#CCC;
+		/*font-style:oblique;*/
+		/*text-transform:uppercase;*/
+		/*transform-style:preserve-3d;*/
+		background: linear-gradient(#003366 ,black, #003366);
+		border-color:#003355;
+		/*letter-spacing:10vw;*/
+}
+/* */
+#bml{
+		column-count:3;	
+}
+/* */
+#show{
+		background-image:url(../IMAGES/CIPHEX/ciphex.jpg);
+		width:100%;
+		height:120px;
+		background-size:100% 150px;
+		border-color:#000000;
+		border:solid;
+}
+/* ALL MARQUEE STYLE*/
+marquee{
+		padding:10px 10px 10px 10px;
+		font-size:16px;
+		font-family:"Courier New", Courier, monospace;
+		color:#C0F0C0;
+}
+/* ALL SUB STYLE*/
+sub{
+		font-size:10px;
+}
+/* ALL PARAGRAPHS STYLE*/
+p{
+		text-wrap:unrestricted;
+		font-size:24px;
+}
+/* ALL VISTED LINK STYLE*/
+a:visited{
+		color:00403E;
+		font-family:"Times New Roman", Times, serif;
+		font-size:20px;
+		text-decoration:none;
+}
+/* ALL LINK STYLE*/
+a:link{
+		color:#00CCCC;
+		font-family:"Times New Roman", Times, serif;
+		font-size:20px;
+		text-decoration:blink;
+}
